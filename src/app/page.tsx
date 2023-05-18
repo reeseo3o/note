@@ -3,7 +3,7 @@ import os from 'os';
 import Image from 'next/image';
 
 export default function Home() {
-  console.log('hello!');
+  console.log('hello!2');
   console.log('안녕~서버');
   console.log(os.hostname());
   return (
