@@ -13,6 +13,7 @@ export default async function ProductsPage() {
     <main className="flex flex-col items-center justify-between p-24">
       Products Page
       <div>
+        <h3>version 3</h3>
         <Image src={clothesImage} alt="Clothes" />
         <ul>
           {products.map(({ id, name }, index) => (
